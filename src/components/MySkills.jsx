@@ -4,6 +4,7 @@ import Title from './Title';
 import Skills from './Skills';
 import About from './About';
 import Buttons from './Buttons';
+import Contact from './Contact';
 
 function MySkills(){
     function showHomePage(){
@@ -13,6 +14,7 @@ function MySkills(){
                 <Skills/>
                 <About/>
                 <Buttons/>
+                <Contact/>
             </React.StrictMode>
         );
     }
