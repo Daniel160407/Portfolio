@@ -1,6 +1,7 @@
 import React from 'react';
 import root from "../root";
 import Projects from './Project';
+import MySkills from './MySkills';
 
 function Buttons(){
     function showProjects(){
@@ -11,9 +12,18 @@ function Buttons(){
         );
     }
 
+    function showSkills(){
+        root.render(
+            <React.StrictMode>
+                <MySkills/>
+            </React.StrictMode>
+        );
+    }
+
     return(
-        <div>
-            <button id="projects" onClick={showProjects}>My Projects</button>
+        <div id='buttons'>
+            <button onClick={showProjects}>- PROJECTS</button>
+            <button onClick={showSkills}>- MY SKILLS</button>
         </div>
     );
 }

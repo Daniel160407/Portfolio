@@ -65,7 +65,13 @@ span{
  transform: translateY(-5px) scale(1.05);
 }
 
-#projects {
+#buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,13 +81,25 @@ span{
   margin-bottom: 5px;
 }
 
+#arrow{
+  justify-content: start;
+}
+
+.arrow svg{
+  transition: all .2s ease-in;
+}
+
 .project {
   text-align: center;
   padding: 2rem;
   border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
   color: #f4f4f4;
   width: 700px;
+}
+
+.links{
+  gap: 10px;
 }
 
 .project div{
@@ -132,4 +150,26 @@ span{
 
 #description{
   text-align: left;
+}
+
+#front, #back, #database, #git, #system {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 10px;
+  width: 400px;
+}
+
+#front h2, #back h2, #database h2, #git h2, #system h2 {
+  margin: 0 0 5px;
+}
+
+#front ul, #back ul, #database ul, #git ul, #system ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#front li, #back li, #database li, #git li, #system li {
+  margin-bottom: 5px;
 }
