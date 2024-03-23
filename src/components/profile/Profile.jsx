@@ -4,7 +4,7 @@ import PersonalInfo from "./PersonalInfo";
 function Profile(){
     function download(){
         const link = document.createElement('a');
-        link.href = './public/files/Daniel Abulashvili - Resume.pdf';
+        link.href = '/files/Daniel Abulashvili - Resume.pdf';
         link.download = 'Daniel Abulashvili - Resume';
         document.body.appendChild(link);
         link.click();
