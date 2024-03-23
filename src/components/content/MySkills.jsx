@@ -1,29 +1,8 @@
 import React from 'react';
-import root from "../root";
-import Title from './Title';
-import Skills from './Skills';
-import About from './About';
-import Buttons from './Buttons';
-import Contact from './Contact';
-
 function MySkills(){
-    function showHomePage(){
-        root.render(
-            <React.StrictMode>
-                <Title/>
-                <Skills/>
-                <About/>
-                <Buttons/>
-                <Contact/>
-            </React.StrictMode>
-        );
-    }
-
     return(
-        <div>
-            <div className='arrow'>
-                <svg onClick={showHomePage} stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"></path></svg>
-            </div>
+        <div id='skillsTab' className='tab-pane fade'>
+            <div id='skills'>
             <div id="front">
                 <h2>Front</h2>
                 <ul>
@@ -48,6 +27,7 @@ function MySkills(){
                     <li>MySQL</li>
                     <li>Docker</li>
                     <li>Firebase</li>
+                    <li>MongoDB</li>
                 </ul>
             </div>
             <div id="git">
@@ -65,6 +45,8 @@ function MySkills(){
                 </ul>
             </div>
         </div>
+        </div>
+        
     );
 }
 

@@ -1,18 +1,21 @@
 import React from 'react'
-import Title from './components/Title.jsx'
-import Skills from './components/Skills.jsx'
-import About from './components/About.jsx'
-import root from './root.js'
-import Buttons from './components/Buttons.jsx'
-import Contact from './components/Contact.jsx'
-
+import About from './components/content/About.jsx'
+import root from './scripts/root.js'
+import Profile from './components/profile/Profile.jsx'
+import Navbar from './components/navbar/Navbar.jsx'
+import MySkills from './components/content/MySkills.jsx'
+import Projects from './components/content/Projects.jsx'
 
 root.render(
   <React.StrictMode>
-    <Title />
-    <Skills/>
-    <About/>
-    <Buttons/>
-    <Contact/>
+    <Profile/>
+    <div id='main' className='tab-content'>
+      <About/>
+      <Projects/>
+      <MySkills/>
+    </div>
+    <div id='navbar'>
+      <Navbar/>
+    </div>
   </React.StrictMode>,
 )
