@@ -20,6 +20,10 @@ function About() {
                     certified soon.
                 </div>
             </div>
+            <div className="paragraph-container">
+                <div className="paragraph-title">Languages</div>
+                <div className="paragraph-text">I know several languages: Georgian - Native, Russian - Native, English - B2, German - A2.</div>
+            </div>
         </div>
     );
 }
