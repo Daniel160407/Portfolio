@@ -204,25 +204,14 @@ button {
     display: inline-block;
 }
 
-#facebook svg, #linkedIn svg {
-    fill: #3f51b5;
-    height: 30px;
-    width: 30px;
-    transition: fill 0.3s ease;
-}
-
-#github svg {
+#facebook svg, #linkedIn svg, #github svg {
     height: 30px;
     width: 30px;
     fill: #000000;
     transition: fill 0.3s ease;
 }
 
-#facebook:hover svg, #linkedIn:hover svg {
-    fill: #0e30f0;
-}
-
-#github:hover svg {
+#facebook:hover svg, #linkedIn:hover svg, #github:hover svg {
     fill: #3b5998;
 }
 
