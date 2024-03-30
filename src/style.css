@@ -37,7 +37,7 @@ body {
 
 @font-face {
     font-family: Mouldy;
-    src: url('/public/fonts/MouldyCheeseRegular-WyMWG.ttf') format('truetype');
+    src: url('/fonts/MouldyCheeseRegular-WyMWG.ttf') format('truetype');
   }
   
 
@@ -170,7 +170,7 @@ button {
     padding-top: 20px;
 }
 
-#front, #back, #database, #git, #system {
+.skill {
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
@@ -178,17 +178,17 @@ button {
     width: 400px;
 }
 
-#front h2, #back h2, #database h2, #git h2, #system h2 {
+.skill h2 {
     margin: 0 0 5px;
 }
 
-#front ul, #back ul, #database ul, #git ul, #system ul {
+.skill ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-#front li, #back li, #database li, #git li, #system li {
+.skill li {
     margin-bottom: 5px;
 }
 

@@ -3,7 +3,7 @@ import About from './components/content/About.jsx'
 import root from './scripts/root.js'
 import Profile from './components/profile/Profile.jsx'
 import Navbar from './components/navbar/Navbar.jsx'
-import MySkills from './components/content/MySkills.jsx'
+import MySkills from './components/content/Skills.jsx'
 import Projects from './components/content/Projects.jsx'
 
 root.render(

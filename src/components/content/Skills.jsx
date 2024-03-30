@@ -1,9 +1,9 @@
 import React from 'react';
-function MySkills(){
+function Skills(){
     return(
         <div id='skillsTab' className='tab-pane fade'>
             <div id='skills'>
-            <div id="front">
+            <div className='skill'>
                 <h2>Front</h2>
                 <ul>
                     <li>JavaScript</li>
@@ -11,17 +11,23 @@ function MySkills(){
                     <li>React.js</li>
                     <li>Vue.js</li>
                     <li>HTML</li>
-                    <li>CSS</li>
                 </ul>
             </div>
-            <div id="back">
+            <div className='skill'>
                 <h2>Back</h2>
                 <ul>
                     <li>Java</li>
                     <li>C++</li>
                 </ul>
             </div>
-            <div id="database">
+            <div className='skill'>
+                <h2>Style</h2>
+                <ul>
+                    <li>CSS</li>
+                    <li>SCSS</li>
+                </ul>
+            </div>
+            <div className='skill'>
                 <h2>Database</h2>
                 <ul>
                     <li>MySQL</li>
@@ -30,14 +36,14 @@ function MySkills(){
                     <li>MongoDB</li>
                 </ul>
             </div>
-            <div id="git">
+            <div className='skill'>
                 <h2>Version Control</h2>
                 <ul>
                     <li>Git</li>
                     <li>GitHub</li>
                 </ul>
             </div>
-            <div id="system">
+            <div className='skill'>
                 <h2>Operating System</h2>
                 <ul>
                     <li>Windows</li>
@@ -50,4 +56,4 @@ function MySkills(){
     );
 }
 
-export default MySkills;
+export default Skills;
