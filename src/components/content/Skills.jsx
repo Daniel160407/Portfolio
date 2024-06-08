@@ -18,6 +18,9 @@ function Skills(){
                 <ul>
                     <li>Java</li>
                     <li>C++</li>
+                    <li>C#</li>
+                    <li>C</li>
+                    <li>Node.js</li>
                 </ul>
             </div>
             <div className='skill'>
