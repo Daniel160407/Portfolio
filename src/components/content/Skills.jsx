@@ -28,6 +28,7 @@ function Skills(){
                 <ul>
                     <li>CSS</li>
                     <li>SCSS</li>
+                    <li>Tailwind</li>
                 </ul>
             </div>
             <div className='skill'>

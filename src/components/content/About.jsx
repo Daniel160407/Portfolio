@@ -4,18 +4,13 @@ function About() {
             <h1>About</h1><br/>
             <div className="paragraph-container">
                 <div className="paragraph-title">About me</div>
-                <div className="paragraph-text">I am crazy about programming, I really like my profession and I want to use
-                    my skills to work with a development company. Unlike other so-called programmers I am ready for the difficulties 
-                    that will be encountered during work. I`m punctual, hardworking, and curious, allowing me to learn new things 
-                    with ease and interest.
+                <div className="paragraph-text">Passionate about programming, I thrive on tackling challenges and am eager to join a development company. My punctuality, dedication, and curiosity drive me to master new skills effortlessly.
                 </div>
             </div>
             <div className="paragraph-container">
                 <div className="paragraph-title">Me and my projects</div>
                 <div className="paragraph-text">
-                    I have made about 40 projects using different programming languages such as Java, React.js, C++...
-                    Now I`m working on several projects, one of which is from an employer. About
-                    this one project, this is an order from a man who wanted a website for tours.
+                    I have created about 50 projects under my belt using a deep knowledge in Java, MySQL (and other databases) and React.js I’m currently working on various business startup projects.
                 </div>
             </div>
             <div className="paragraph-container">
@@ -26,7 +21,7 @@ function About() {
             </div>
             <div className="paragraph-container">
                 <div className="paragraph-title">Languages</div>
-                <div className="paragraph-text">I know several languages: Georgian - Native, Russian - Native, English - B2, German - B1.</div>
+                <div className="paragraph-text">I know several languages: Georgian - Native, Russian - C1, English - B2, German - B2.</div>
             </div>
         </div>
     );
